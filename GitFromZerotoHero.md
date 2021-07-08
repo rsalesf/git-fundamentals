@@ -14,5 +14,13 @@ git config --global user.email
 git config --global user.name
 ```
 
+```shell
+git add *
+```
+
+```shell
+git commit -m "my first commit"
+```
+
 
 
