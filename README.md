@@ -12,8 +12,8 @@ git init
 
 ```shell
 #define a git author
-git config --global user.email
-git config --global user.name
+git config --global user.email <user@xpto.com>
+git config --global user.name <username>
 ```
 
 ```shell
@@ -25,6 +25,16 @@ git add *
 #take a snapshot for the current repository (local repository)
 git commit -m "my first commit"
 ```
+
+````shell
+#configure a remote repository to send your code. (in this example, a GitBuh repository)
+git remote add origin https://github.com/rsalesf/git-fundamentals.git
+````
+
+````shell
+#send your code/branch to remote repository
+git push origin master
+````
 
 Tips:
 
