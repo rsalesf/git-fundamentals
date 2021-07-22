@@ -1,7 +1,25 @@
 ### Git Fundamentals
 
+#### Objects that GIT uses to version files??
+![git internal objetcs](./images/git-objects-example.png)
+
+All the objects and updates in files are identified by a hash, using [SHA1 algorithm][https://en.wikipedia.org/wiki/SHA-1].
+
+````shell
+#generate a hash for "hello world!" string using sha1
+echo "hello world!" > openssl sha1
+````
+
+Example of the hash using "hello world!" and "hello world." strings.
+![git internal objetcs](./images/sha1-example.jpg)
+
+
+
 #### File status life-cycle
-![Drag Racing](./images/git-files-life-cycle.jpg)
+
+![git-files-life-cycle](./images/git-files-life-cycle.jpg)
+
+
 
 #### Basic Commands
 
