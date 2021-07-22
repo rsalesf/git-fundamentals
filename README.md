@@ -1,9 +1,9 @@
 ### Git Fundamentals
 
-#### Objects that GIT uses to version files??
+#### Objects that GIT uses to version files.
 ![git internal objetcs](./images/git-objects-example.png)
 
-All the objects and updates in files are identified by a hash, using [SHA1 algorithm][https://en.wikipedia.org/wiki/SHA-1].
+All the objects and updates in files are identified by a hash, using [SHA1 algorithm](https://en.wikipedia.org/wiki/SHA-1 "wikipedia's page").
 
 ````shell
 #generate a hash for "hello world!" string using sha1
